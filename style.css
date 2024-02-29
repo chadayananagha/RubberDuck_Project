@@ -79,7 +79,19 @@ header {
     margin: 0 auto;
     background-color:white;
     margin-bottom: 2rem;
+    animation-name: example;
+    animation-duration:4s;
+    animation-delay: 2s;
+    animation-iteration-count: 10;
 }
+@keyframes example {
+    /* from {background-color:white;}
+    to {background-color:lightyellow;} */
+    0%   {background-color:white;}
+  25%  {background-color:lightyellow;}
+  50%  {background-color: white;}
+  100% {background-color: lightyellow;}
+  }
 header h1{
     padding-bottom: 2rem;
 }
@@ -95,7 +107,19 @@ header h1{
     /* text-align: center; */
     width: 80%;
     margin: 4rem auto;
+    animation-name: example;
+    animation-duration:4s;
+    animation-delay: 2s;
+    animation-iteration-count: 10;
 }
+@keyframes example {
+    /* from {background-color:white;}
+    to {background-color:lightyellow;} */
+    0%   {background-color:white;}
+  25%  {background-color:lightyellow;}
+  50%  {background-color: white;}
+  100% {background-color: lightyellow;}
+  }
 #duck h2{
     padding-bottom: 2rem;
 }
@@ -152,7 +176,19 @@ header h1{
     height: 150px;
     gap:2rem;
     flex-flow: wrap;
+    animation-name: example;
+   animation-duration:4s;
+   animation-delay: 2s;
+   animation-iteration-count: 10;
 }
+@keyframes example {
+    /* from {background-color:white;}
+    to {background-color:lightyellow;} */
+    0%   {background-color:white;}
+  25%  {background-color:lightyellow;}
+  50%  {background-color: white;}
+  100% {background-color: lightyellow;}
+  }
 footer {
     /* border: 2px solid red; */
     display: flex;
