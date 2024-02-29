@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+body{
+    background:#ECECEC;
+}
+nav {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    background:#FDBA14;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/* :not(.nav-left)
+{
+    color:black;
+    font-weight: bold;
+} */
+
+.nav-left {
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    /* background-color: #C4C4C4; */
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+.nav-left a{
+    text-decoration: none;
+    color: white;
+}
+.nav-right img{
+    display: none;
+}
+.nav-right {
+    /* border: 2px solid green; */
+    width: 80%;
+}
+
+ul {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-evenly; 
+}
+.nav-right a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.nav-right a:hover{
+    color: #fbfbfe;
+    text-decoration:underline solid;
+}
+.nav-right a:active{
+    color:red;
+    text-decoration:underline solid;
+}
+
+li {
+    /* border: 2px solid green; */
+    /* background-color: #C4C4C4; */
+}
+
+header {
+    /* border: 2px solid orange; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color:white;
+    margin-bottom: 2rem;
+}
+header h1{
+    padding-bottom: 2rem;
+}
+#duck {
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    /* text-align: center; */
+    width: 80%;
+    margin: 4rem auto;
+}
+#duck h2{
+    padding-bottom: 2rem;
+}
+#duck p{
+    text-transform: capitalize;
+    text-shadow: 2px 2px pink;
+}
+.text {
+    /* border: 2px solid yellow; */
+}
+
+.text p {
+    /* border: 2px solid yellow; */
+}
+
+.duck {
+    /* border: 2px solid yellow; */
+   
+}
+
+#emergency {
+    /* border: 2px solid blue; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #C4C4C4; */
+}
+#emergency h2{
+    padding-bottom: 2rem;
+}
+#emergency a{
+    text-decoration: none;
+    color: black;
+}
+#emergency a:hover{
+    text-decoration:underline solid;
+    color: #433BFF;
+}
+.grid-container {
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+    width: 80%;
+    margin: 0 auto;
+}
+.grid-item {
+    /* border: 2px solid pink; */
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    gap:2rem;
+    flex-flow: wrap;
+}
+footer {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FDBA14;
+    margin-top: 2rem;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+form button{
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    margin-bottom: 1.2rem;
+}
+form input{
+    width: 14.6rem;
+}
+form input,textarea:focus
+{
+  outline: none;
+}
+@media only screen and (max-width: 600px) {
+    .nav-right img{
+        display:inline;
+        float:right;
+        /* padding-right: 2rem; */
+    }
+    .nav-right ul{
+        display:none;
+    }
+  }
